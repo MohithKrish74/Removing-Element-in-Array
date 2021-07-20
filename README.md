@@ -1,1 +1,0 @@
-# Removing-Element-in-Array
