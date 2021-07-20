@@ -9,25 +9,23 @@ public class Main
         System.out.print("Enter the size of the array: ");
         Scanner in =new Scanner(System.in);
         int size=in.nextInt();
-        int array1[]=new int[size];
+        int array[]=new int[size];
         for(int i=0;i<size;i++)
         {
-            array1[i]=in.nextInt();
+            array[i]=in.nextInt();
         }
-        System.out.println("User Array : "+ Arrays.toString(array1));
+        System.out.println("User Array : "+ Arrays.toString(array));
         System.out.print("Enter the element in the array to be removed: ");
         int remove=in.nextInt();
         int j=0;
         System.out.print("Element after removing the Array is: ");
-        for(int i=0;i<array1.length;i++)
+        for(int i=0;i<array.length;i++)
         {
-            if(array1[i]!=remove)
+            if(array[i]!=remove)
             {
-                System.out.print(array1[i]+" ");
+                System.out.print(array[i]+" ");
             }
         }
     }
 
 }
-
-
